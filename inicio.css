@@ -1,0 +1,107 @@
+/* Estilo global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background: linear-gradient(135deg, #b3d4fc, #eaf3ff); 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #0047ab; 
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Contenedor del formulario */
+main {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.login-form label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #0047ab;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #0047ab; 
+}
+
+.login-form button {
+    width: 100%;
+    background: #0047ab;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+    background: #003380; 
+    transform: translateY(-2px);
+}
+
+.login-form button:active {
+    transform: translateY(0);
+}
+
+main p {
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+main a {
+    color: #0047ab;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+main a:hover {
+    color: #003380;
+}

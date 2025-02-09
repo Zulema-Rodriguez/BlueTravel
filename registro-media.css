@@ -1,0 +1,47 @@
+/* Registro - tablet */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .registro-form {
+        padding: 15px;
+    }
+
+    .registro-form input {
+        font-size: 0.9rem;
+    }
+
+    .registro-form button {
+        font-size: 0.9rem;
+    }
+}
+
+/* Registro - móvil */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .registro-form {
+        padding: 10px;
+    }
+
+    .registro-form input {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .registro-form button {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+}

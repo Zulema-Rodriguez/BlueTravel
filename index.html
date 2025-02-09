@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-IU-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/footer-media.css">
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/logo.bt.jpg" alt="Logo">
+
+        <nav class="navbar" role="navigation">
+            <label for="toggle-menu" class="checkbtn" aria-label="Abrir menú"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu" aria-hidden="true">
+    
+            <ul class="navbar-list">
+                <li><a href="#inicio" class="navbar-link">Inicio</a></li>
+                <li>
+                    <a href="#destinos" class="navbar-link" aria-haspopup="true" aria-expanded="false">Destinos</a>
+                    <ul class="submenu">
+                        <li><a href="#" class="submenu-link">Cancún</a></li>
+                        <li><a href="#" class="submenu-link">Playa del Carmen</a></li>
+                        <li><a href="#" class="submenu-link">Río de Janeiro</a></li>
+                        <li><a href="#" class="submenu-link">Florianópolis</a></li>
+                    </ul>
+                </li>
+                <li><a href="#hoteles" class="navbar-link">Hoteles</a></li>
+                <li><a href="#contacto" class="navbar-link">Contacto</a></li>
+                <li><a href="#nosotros" class="navbar-link">Nosotros</a></li>
+                <li><a href="#opiniones" class="navbar-link">Opiniones</a></li>
+                <li><a href="registro.html" class="navbar-link">Registro</a></li>
+                <li><a href="inicio.html" class="navbar-link">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+
+        
+            
+        
+
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="hero">
+                <img src="./img/portada.bt.jpg" alt="Imagen de playa" class="hero-img">
+                <div class="hero-text">
+                   <h1>Vive el paraiso</h1>
+                   <p>Relajate en las playas más exclusivas de Brasil y México. Sol, arena y descanso te esperan</p>
+                </div>
+                 
+            </div>
+
+        </section>
+
+        <section class="oferta-semana">
+            <div class="oferta-contenedor">
+                <img src="./img/cancunOfertas.webp" alt="Destino especial">
+                <div class="oferta-detalles">
+                    <h3>CANCÚN</h3>
+                    <p>7 días / 6 noches</p>
+                    <span>🔥 20% OFF 🔥</span>
+                    <a href="#" class="btn-reservar">Reservar ahora</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="metodos-de-pago">
+            <div class="pagos">
+                <div class="pagos-img">
+                    <img src="./img/american.bt.jpg" alt="American Express" class="img-pago">
+                    <img src="./img/mercadopago.bt.jpg" alt="Mercado Pago" class="img-pago">
+                    <img src="./img/pp.bt.jpg" alt="Paypal" class="img-pago">
+                    <img src="./img/santander.bt.jpg" alt="Santander" class="img-pago">
+                    <img src="./img/visa.bt.jpg" alt="Visa" class="img-pago">
+
+                </div>
+                
+            </div>
+
+        </section>
+
+
+        <section class="destinos" id="destinos">
+            <h2 class="subtitulos">Destinos Turísticos</h2>
+            <p>Explora nuestros destinos turísticos más populares y vive una experiencia inolvidable</p>
+            <div class="info-cards-container">
+                <div class="info-card">
+                    <img src="./img/cancún.bt.avif" alt="Vista panorámica de Cancún" class="img-destino">
+                    <div class="contenido-cards">
+                        <h3>Cancún</h3>
+                        <p><strong>Ubicación:</strong> México</p>
+                        <p><strong>Duración:</strong> 5 días | 4 noches</p>
+                        <p><strong>Calificación:</strong> ★★★★</p>
+                        <p><strong>Precio:</strong> $ 700,000</p>
+                        <div class="button-card-info">
+                            <button class="button-cards">RESERVAR</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <img src="./img/playadelcarmen.bt.webp" alt="Playa del Carmen, México" class="img-destino">
+                    <div class="contenido-cards">
+                        <h3>Playa del Carmen</h3>
+                        <p><strong>Ubicación:</strong> México</p>
+                        <p><strong>Duración:</strong> 7 días | 6 noches</p>
+                        <p><strong>Calificación:</strong> ★★★★</p>
+                        <p><strong>Precio:</strong> $ 850,000</p>
+                        <div class="button-card-info">
+                            <button class="button-cards">RESERVAR</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <img src="./img/río.bt.jpg" alt="Vista de Río de Janeiro, Brasil" class="img-destino">
+                    <div class="contenido-cards">
+                        <h3>Río de Janeiro</h3>
+                        <p><strong>Ubicación:</strong> Brasil</p>
+                        <p><strong>Duración:</strong> 5 días | 4 noches</p>
+                        <p><strong>Calificación:</strong> ★★★★</p>
+                        <p><strong>Precio:</strong> $ 480,000</p>
+                        <div class="button-card-info">
+                            <button class="button-cards">RESERVAR</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <img src="./img/flor.bt.jpg" alt="Florianópolis, Brasil" class="img-destino">
+                    <div class="contenido-cards">
+                        <h3>Florianópolis</h3>
+                        <p><strong>Ubicación:</strong> Brasil</p>
+                        <p><strong>Duración:</strong> 7 días | 6 noches</p>
+                        <p><strong>Calificación:</strong> ★★★★</p>
+                        <p><strong>Precio:</strong> $ 590,000</p>
+                        <div class="button-card-info">
+                            <button class="button-cards">RESERVAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="hoteles" class="hoteles">
+            <h2 class="subtitulos">Hoteles destacados</h2>
+            <div class="info-cards-container">
+                <div class="info-card">
+                    <img src="./img/kavia.bt.jpg" alt="Imagen del Hotel KAVIA" class="img-hoteles">
+                    <div class="contenido-cards">
+                        <ul>
+                            <li><strong>Hotel KAVIA</strong></li>
+                            <li>★★★★</li>
+                            <li>Cancún</li>
+                            <li>Noche de alojamiento</li>
+                            <li>$ 60.000</li>
+                        </ul>
+                        <div class="button-card-info">
+                            <button class="button-cards">RESERVAR</button>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="info-card">
+                    <img src="./img/winday.bt.jpg" alt="Imagen del Hotel WINDAY" class="img-hoteles">
+                    <div class="contenido-cards">
+                        <ul>
+                            <li><strong>Hotel WINDAY</strong></li>
+                            <li>★★★★</li>
+                            <li>Playa del Carmen</li>
+                            <li>Noche de alojamiento</li>
+                            <li>$ 38.000</li>
+                        </ul>
+                        <div class="button-card-info">
+                            <button class="button-cards">RESERVAR</button>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="info-card">
+                    <img src="./img/star.bt.jpg" alt="Imagen del Hotel STAR" class="img-hoteles">
+                    <div class="contenido-cards">
+                        <ul>
+                            <li><strong>Hotel STAR</strong></li>
+                            <li>★★★★</li>
+                            <li>Río de Janeiro</li>
+                            <li>Noche de alojamiento</li>
+                            <li>$ 37.000</li>
+                        </ul>
+                        <div class="button-card-info">
+                            <button class="button-cards">RESERVAR</button>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="info-card">
+                    <img src="./img/hflor.bt.avif" alt="Imagen del Hotel FLOREANÓPOLIS" class="img-hoteles">
+                    <div class="contenido-cards">
+                        <ul>
+                            <li><strong>Hotel FLOREANÓPOLIS</strong></li>
+                            <li>★★★★</li>
+                            <li>Floreanópolis</li>
+                            <li>Noche de alojamiento</li>
+                            <li>$ 83.000</li>
+                        </ul>
+                        <div class="button-card-info">
+                            <button class="button-cards">RESERVAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contacto">
+            
+            <h2 class="subtitulos">Contacto</h2>
+
+
+            <div class="contact-info">
+              <h2>¿Tenés alguna duda?</h2>
+              <p>No dudes en contactarnos.</p>
+              <p> Telefono: <a href="tel:📞 +54 123 456 789">📞 +54 123 456 789</a></p>
+              <p> Email: <a href="mailto:📧 bluetravel@gmail.com">📧 bluetravel@gmail.com</a></p>
+              <div>
+                <h3>Ubicación:</h3>
+                <img src="./img/ubicación.bt.avif" alt="Mapa de ubicación">
+              </div>
+            </div>
+        
+            
+            <div class="contact-form">
+              <h2>Formulario de contacto</h2>
+              <form action="#" method="post">
+                <div>
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                  <label for="email">E-mail:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                  <label for="asunto">Asunto:</label>
+                  <input type="text" id="asunto" name="asunto" required>
+                </div>
+                <div>
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <div>
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+            </div>
+        </section>
+
+
+       
+  
+
+
+
+        <section class="nosotros" id="nosotros">
+            <h2 class="subtitulos">Nosotros</h2>
+            <div class="overlay">
+              <h3>20 AÑOS DE EXPERIENCIA EN VIAJES</h3>
+              <p>
+                En Blue Travel, llevamos dos décadas ayudando a nuestros clientes a explorar el mundo.  
+                Nuestro compromiso es ofrecer atención personalizada y diseñar experiencias inolvidables, adaptadas a tus sueños y necesidades.  
+                Trabajamos día a día con el objetivo de ser tu agencia de confianza, acompañándote en cada paso de tu aventura.
+              </p>
+            </div>
+            <img src="./img/nosotros.bt.jpg" alt="Imagen de viajes inspiradora">
+        </section>
+
+
+
+        <section class="opiniones" id="opiniones">
+            <h2 class="subtitulos">Opiniones</h2>
+            <div class="card">
+              <img src="./img/opinion1.bt.jpg" alt="Foto de Persona 1" class="foto-redonda">
+              <p class="opinion">Muy buen servicio, cumplen con todo lo pactado. Pude dsifrutar de las playas tranquilamente.</p>
+            </div>
+            <div class="card">
+              <img src="./img/opinion2.bt.jpg" alt="Foto de Persona 2" class="foto-redonda">
+              <p class="opinion">Recomiendo 100%. Feliz por la experiencia de viaje, excelente la tención que brindan.</p>
+            </div>
+            <div class="card">
+              <img src="./img/opinion3.bt.jpg" alt="Foto de Persona 3" class="foto-redonda">
+              <p class="opinion">Una experiencia super recomendada. Los horariso se respetaron y brindaron los servicios tal cual estaban estipulados.</p>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-travel">
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Políticas</h4>
+                    <ul>
+                        <li><a href="#">Políticas de privacidad</a></li>
+                        <li><a href="#">Políticas de cancelación</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Experiencias</h4>
+                    <ul>
+                        <li><a href="#">Opiniones</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

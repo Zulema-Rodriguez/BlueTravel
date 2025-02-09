@@ -1,0 +1,33 @@
+/* Para tablets (pantallas entre 768px y 1024px) */
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 15px 25px;
+    }
+
+    login-form button {
+        font-size: 1rem;
+    }
+}
+
+/* Para móviles (pantallas menores a 768px) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    main {
+        padding: 10px 20px;
+    }
+
+    .login-form button {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,439 @@
+/* Navbar - Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+    .navbar-list {
+        display: none;
+        flex-direction: column;
+        background-color: white; 
+        position: absolute;
+        top: 65px; 
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        align-items: flex-start;
+        z-index: 2;
+        padding: 15px;
+        left: 0;
+    }
+
+    .navbar-list.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-list li {
+        margin-bottom: 10px;
+    }
+
+    .navbar-link {
+        font-size: 18px;
+        padding: 10px 15px;
+        color: #007BFF;
+        font-weight: bold;
+    }
+
+    .navbar-link:hover {
+        color: #0056b3;
+    }
+
+    .checkbtn {
+        display: block;
+        color: blue; 
+        font-size: 28px;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .submenu {
+        position: static; 
+        box-shadow: none;
+    }
+
+
+}
+
+/* Navbar para movil */
+@media (max-width: 480px) {
+    .navbar-list {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 65px;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 2;
+        padding: 15px;
+        align-items: flex-start;
+    }
+
+    .navbar-list.active {
+        display: flex;
+    }
+
+    .navbar-list li {
+        margin-bottom: 15px;
+    }
+
+    .navbar-link {
+        font-size: 20px;
+        padding: 15px;
+        color: #007BFF;
+        font-weight: bold;
+
+    }
+
+    .navbar-link:hover {
+        color: #0056b3;
+    }
+
+    .checkbtn {
+        display: block;
+        color: blue;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 15px;
+    }
+
+    .submenu {
+        position: static;
+        box-shadow: none;
+    }
+
+    .submenu-link {
+        padding: 10px;
+    }
+}
+
+/* OFERTAS */
+/* Para tablet (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .oferta-contenedor {
+        width: 90%;
+    }
+
+    .oferta-detalles {
+        width: 85%;
+        padding: 10px 15px;
+    }
+
+    .oferta-detalles h3 {
+        font-size: 22px;
+    }
+
+    .oferta-detalles p {
+        font-size: 16px;
+    }
+
+    .oferta-detalles span {
+        font-size: 18px;
+    }
+
+    .btn-reservar {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+/* Para móvil (hasta 767px) */
+@media screen and (max-width: 767px) {
+    .oferta-semana {
+        padding: 30px 10px;
+    }
+
+    .oferta-contenedor {
+        width: 95%;
+    }
+
+    .oferta-detalles {
+        width: 90%;
+        padding: 8px 12px;
+    }
+
+    .oferta-detalles h3 {
+        font-size: 20px;
+    }
+
+    .oferta-detalles p {
+        font-size: 14px;
+    }
+
+    .oferta-detalles span {
+        font-size: 16px;
+    }
+
+    .btn-reservar {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+
+/* MEDIOS DE PAGO */
+/* Medios de pago - Tablet */
+@media (max-width: 768px) {
+    .pagos-img {
+        gap: 15px;
+    }
+
+    .img-pago {
+        width: 60px; 
+    }
+}
+
+/* Medios de pago - Movil */
+@media (max-width: 480px) {
+    .pagos-img {
+        gap: 10px;
+    }
+
+    .img-pago {
+        width: 50px; 
+    }
+}
+
+/* DESTINOS */
+/* Destinos para tablets */
+@media screen and (max-width: 1024px) {
+    .info-card {
+        width: calc(33.333% - 1rem); 
+    }
+
+    .info-cards-container {
+        gap: 1.2rem; 
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
+
+    .button-cards {
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Destinos  para móviles */
+@media screen and (max-width: 768px) {
+    .info-card {
+        width: calc(50% - 1rem); 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .info-card {
+        width: 100%; 
+    }
+
+    .info-cards-container {
+        gap: 1rem; 
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .button-cards {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+/* HOTELES */
+/* Hoteles para tablet */
+@media (max-width: 1024px) {
+    .info-cards-container {
+        gap: 1rem;
+    }
+
+    .info-card {
+        width: calc(50% - 1rem); 
+    }
+
+    .subtitulos {
+        font-size: 1.8rem;
+    }
+}
+
+/* Hoteles para movil */
+@media (max-width: 768px) {
+    .info-card {
+        width: 100%; 
+    }
+
+    .subtitulos {
+        font-size: 1.5rem;
+    }
+
+    .button-cards {
+        width: 100%;
+    }
+}
+
+
+/* Formulario -  tablet */
+@media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+    }
+  
+    .contact-info, .contact-form {
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+  
+    .contact-info img {
+      margin: 20px 0;
+    }
+
+    .contact-form label {
+        text-align: left;
+        display: block;
+    }
+  }
+  
+  /* Formulario - móvil */
+  @media (max-width: 480px) {
+    body {
+      font-size: 0.9rem;
+    }
+  
+    .contact-section {
+      padding: 15px;
+      gap: 10px;
+    }
+  
+    .contact-info p {
+      font-size: 1rem;
+    }
+  
+    .contact-form {
+      padding: 15px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 0.9rem;
+    }
+  
+    .contact-form button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+
+
+
+/* Nosotros - Tablet*/
+@media (max-width: 1024px) { 
+    #nosotros {
+        display: none;
+    }
+  }
+
+  /* Nosotros - Móvil */
+  @media (max-width: 768px) { 
+    #nosotros {
+        display: none;
+    }
+  }
+
+
+/* Opiniones - Tablet */
+  @media (max-width: 1024px) {
+    .opiniones {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .card {
+      flex: 0 0 45%; 
+      margin: 10px;
+    }
+  
+    .opinion {
+      font-size: 14px;
+    }
+}
+
+
+/* OPINIONES */
+/* Opiniones - Movil */
+@media (max-width: 768px) {
+    .opiniones {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      flex: 0 0 90%; 
+      margin: 10px 0;
+    }
+  
+    .opinion {
+      font-size: 14px;
+    }
+}
+
+/* FOOTER */
+/* Footer - tablet */
+@media (max-width: 768px) {
+    .footer-travel {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .footer-links {
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+
+    .social-link {
+        gap: 12px; 
+    }
+
+    .social-link a {
+        width: 40px; 
+        height: 40px;
+    }
+
+    .social-link a i {
+        font-size: 20px; 
+    }
+}
+
+/* Footer - Movil */
+@media (max-width: 480px) {
+    .footer-travel {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .footer-links {
+        margin-bottom: 15px; 
+        text-align: center; 
+    }
+
+    .social-link {
+        gap: 8px; 
+    }
+
+    .social-link a {
+        width: 35px; 
+        height: 35px;
+    }
+
+    .social-link a i {
+        font-size: 18px; 
+    }
+}
