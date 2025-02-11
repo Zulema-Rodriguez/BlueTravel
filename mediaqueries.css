@@ -3,9 +3,9 @@
     .navbar-list {
         display: none;
         flex-direction: column;
-        background-color: white; 
+        background-color: white;
         position: absolute;
-        top: 65px; 
+        top: 65px;
         width: 100%;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         align-items: flex-start;
@@ -36,37 +36,46 @@
 
     .checkbtn {
         display: block;
-        color: blue; 
+        color: blue;
         font-size: 28px;
         cursor: pointer;
         padding: 10px;
     }
 
     .submenu {
-        position: static; 
+        position: static;
         box-shadow: none;
     }
 
+    .submenu-link {
+        display: block;
+        width: 100%;
+    }
 
+    .navbar-list li:hover .submenu {
+        display: block;
+    }
 }
 
+
 /* Navbar para movil */
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .navbar-list {
-        display: flex;
+        display: none; 
         flex-direction: column;
         background-color: white;
-        position: absolute;
+        position: fixed; 
         top: 65px;
         width: 100%;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         z-index: 2;
         padding: 15px;
         align-items: flex-start;
+        left: 0; 
     }
 
     .navbar-list.active {
-        display: flex;
+        display: flex; 
     }
 
     .navbar-list li {
@@ -78,7 +87,6 @@
         padding: 15px;
         color: #007BFF;
         font-weight: bold;
-
     }
 
     .navbar-link:hover {
@@ -100,6 +108,8 @@
 
     .submenu-link {
         padding: 10px;
+        display: block;
+        width: 100%;
     }
 }
 

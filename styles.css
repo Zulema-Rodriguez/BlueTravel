@@ -49,7 +49,7 @@ header {
 
 .navbar-list:focus-within {
     display: none;
-}
+} 
 
 .navbar-link {
     color: #007BFF;
@@ -78,6 +78,7 @@ header {
     font-size: 14px;
     display: block;
     padding: 5px 10px;
+    width: 100%;
     
 }
 
